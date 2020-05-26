@@ -43,12 +43,16 @@
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
   <script>
-      let bg = document.querySelector('.main-page .wrapper');
-    window.addEventListener('mousemove', function(e) {
-        let x = e.clientX / window.innerWidth;
-        let y = e.clientY / window.innerHeight;  
-        bg.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
-    });
+      var bg;
+      if($(window).width() > 768) {
+             bg = document.querySelector('.main-page .wrapper');
+        }
+        window.addEventListener('mousemove', function(e) {
+            let x = e.clientX / window.innerWidth;
+            let y = e.clientY / window.innerHeight;  
+            bg.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 20 + 'px)';
+        });
+      
   </script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   <script src="libs/wow.min.js"></script>

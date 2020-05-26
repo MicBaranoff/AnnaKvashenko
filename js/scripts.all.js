@@ -16,6 +16,9 @@ var in_process = false;
             
         }  
     });
+    $('.menu').click(function () {
+        $('header nav').toggleClass('active');
+    });
 $(document).ready(function(){
     
     title = $('title').text();
