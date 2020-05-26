@@ -914,6 +914,9 @@ section.contacts .text p a:hover {
   }
 }
 @media (max-width: 425px) {
+  section.main-page {
+    padding-top: 40px;
+  }
   section.bio {
     -webkit-flex-wrap: wrap-reverse;
         -ms-flex-wrap: wrap-reverse;
