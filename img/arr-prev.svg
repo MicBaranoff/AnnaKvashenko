@@ -1,0 +1,6 @@
+<svg style="transform: rotate(180deg)" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+    <g  fill="none" fill-rule="evenodd">
+        <path fill="#D8D8D8" fill-opacity="0" d="M0 0H26V26H0z"/>
+        <path fill="#000" fill-rule="nonzero" d="M20.698 12.271L9.719 1.293c-.39-.39-1.02-.39-1.41 0-.391.39-.391 1.02 0 1.41L18.58 12.978 8.308 23.25c-.39.39-.39 1.02 0 1.411.195.195.45.292.706.292.255 0 .51-.097.705-.292l10.979-10.979c.39-.39.39-1.02 0-1.41z"/>
+    </g>
+</svg>
