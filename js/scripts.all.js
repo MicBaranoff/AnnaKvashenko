@@ -19,12 +19,16 @@ var in_process = false;
     $('.menu').click(function () {
         $('header nav').toggleClass('active');
     });
+
+    $('.site-wrapper header nav > ul > li.works img').click(function () {
+        $(this).toggleClass('active');
+        $(this).parent().find('ul.sub').slideToggle();
+    });
 $(document).ready(function(){
-    
     title = $('title').text();
     console.log(title);
-    $('.site-wrapper header nav > ul > li > a').removeClass('active');
-    $('.site-wrapper header nav > ul > li > a[data-name="'+ title +'"]').addClass('active');
+    $('.site-wrapper header nav > ul > li  a').removeClass('active');
+    $('.site-wrapper header nav > ul > li  a[data-name="'+ title +'"]').addClass('active');
 
     $('[data-fancybox="gallery"]').fancybox({
         toolbar: true,
